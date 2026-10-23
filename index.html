@@ -1,0 +1,11 @@
+const li = document.createElement('li');
+            li.innerHTML = <span>${desc}</span> <span class="${type === 'income' ? 'inc' : 'exp'}">${type === 'income' ? '+' : '-'}${amount.toFixed(2)} AZN</span>;
+            listEl.prepend(li);
+
+            amountEl.value = '';
+            descEl.value = '';
+        }
+    </script>
+
+</body>
+</html>
